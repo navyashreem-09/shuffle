@@ -24,7 +24,7 @@ let sortCards = () => {
 let displayOnGrid = (colorCodesArray) => {
     numberedCards.forEach((ele, index) => {
         let block = index + 1;
-        let cardElement = document.getElementById('flex' + block);
+        let cardElement = document.getElementById('block' + block);
         cardElement.innerHTML = ele;
         cardElement.style.backgroundColor = colorCodesArray[index];
     });
